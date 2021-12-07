@@ -7,6 +7,7 @@ Crypto Algo Used aes-256-ctr
 
 Coming Soon :
 The Pasword manager App 
+
 Client : 
   1) Based on React with React Native (android)
   2) Material UI
