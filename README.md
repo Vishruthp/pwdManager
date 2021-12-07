@@ -16,6 +16,7 @@ Client :
 Server :
   1) Typical Node Server
   2) Uses Graph QL or Couch as DB
+
 Extension :
 In the works, going to be a offline extension to Chromium based browsers
 Will provide Hashing and is stored in local storage of browser.
