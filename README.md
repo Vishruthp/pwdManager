@@ -11,6 +11,7 @@ Client :
   1) Based on React with React Native (android)
   2) Material UI
   3) Displaying the Passwords with a copy function for ease of use
+
 Server :
   1) Typical Node Server
   2) Uses Graph QL or Couch as DB
