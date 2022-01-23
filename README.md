@@ -2,7 +2,7 @@
 Learning to Develop a Password Manager Extension and App
 
 As of Right Now :
-Simple React app and node server to get details (password,email,website) from the user and store it in mysql.
+Simple React app and node server to get details (password,website) from the user and store it in couchdb.
 Crypto Algo Used aes-256-ctr
 
 Coming Soon :
