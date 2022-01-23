@@ -20,3 +20,25 @@ Server :
 Extension :
 In the works, going to be a offline extension to Chromium based browsers
 Will provide Hashing and is stored in local storage of browser.
+
+
+Password Manager UI : 
+
+adding password
+
+![alt text](/demo/passwordmgr1.png)
+
+viewing all saved passwords
+
+![alt text](/demo/passwordmgr2.png)
+
+getting the decrypted password
+
+![alt text](/demo/passwordmgr3.png)
+
+deleting password
+
+![alt text](/demo/passwordmgr4.png)
+
+
+
