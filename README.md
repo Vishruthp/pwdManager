@@ -15,7 +15,7 @@ Client :
 
 Server :
   1) Typical Node Server
-  2) Uses Graph QL or Couch as DB
+  2) Uses Couch as DB
 
 Extension :
 In the works, going to be a offline extension to Chromium based browsers
