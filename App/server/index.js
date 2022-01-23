@@ -20,5 +20,5 @@ initCouch(function(err) {
 app.use('/', routes); 
 
 app.listen(PORT,()=>{
-    console.log("Server Works on port" + PORT);
+    console.log("Server Works on port : " + PORT);
 });

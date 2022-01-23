@@ -2,10 +2,10 @@ const dboperator = require('../db/dboperations');
 const {encrypt,decrypt} = require('../crypto/encryptionhandler');
 
 const addPassword = (req,res)=>{
-    const { password,websitename } = req.body;
+    const { password,sitename } = req.body;
     const hashedPwd = encrypt(password);
     var entry = {
-      sitename : websitename,
+      sitename : sitename,
       password : hashedPwd.password,
       iv : hashedPwd.iv,
     };
@@ -17,7 +17,6 @@ const addPassword = (req,res)=>{
 const showPasswords = (req,res)=>{ 
     docsList = [];
     dboperator.showPasswords().then((body)=>{
-        console.log(body);
         body.rows.forEach((val) => {
           docsList.push(val.doc);
         });
@@ -30,12 +29,12 @@ const decryptPassword = (req,res)=>{
 };
 
 const updatePassword = (req,res)=>{
-    const { _id,_rev,password,websitename } = req.body;
+    const { _id,_rev,password,sitename } = req.body;
     const hashedPwd = encrypt(password);
     var entry = {
         _id: _id,
         _rev: _rev,
-      sitename : websitename,
+      sitename : sitename,
       password : hashedPwd.password,
       iv : hashedPwd.iv,
     };
