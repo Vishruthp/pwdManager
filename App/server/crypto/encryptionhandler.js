@@ -21,4 +21,4 @@ const decipher = crypto.createDecipheriv(
     return decryptedPWD.toString();
 }
 
-module.exports ={encrypt,decrypt}
+module.exports = { encrypt, decrypt }
