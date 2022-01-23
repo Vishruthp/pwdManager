@@ -10,7 +10,6 @@ class Confirmation extends React.Component {
     const {
       proceedLabel,
       cancelLabel,
-      title,
       confirmation,
       show,
       proceed,
