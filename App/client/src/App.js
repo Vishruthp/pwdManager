@@ -55,8 +55,6 @@ function App() {
 }
 
   return (
-    
-    
     <div className="App">
       <div style={{ display: !isShow ? "block" : "none" }}>
       <span className="login100-form-title">
