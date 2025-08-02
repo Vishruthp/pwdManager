@@ -15,21 +15,9 @@ Server :
 
 Password Manager UI : 
 
-adding password
-
-![alt text](/demo/passwordmgr1.png)
-
 viewing all saved passwords
 
 ![alt text](/demo/passwordmgr2.png)
-
-getting the decrypted password
-
-![alt text](/demo/passwordmgr3.png)
-
-deleting password
-
-![alt text](/demo/passwordmgr4.png)
 
 
 
