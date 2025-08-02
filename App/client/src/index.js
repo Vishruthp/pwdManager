@@ -1,12 +1,12 @@
-import './index.css';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./index.css";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='limiter'>
+    <div className="limiter">
       <div className="container-login100">
         <div className="wrap-login100">
           <div className="login100-pic">
@@ -16,9 +16,8 @@ ReactDOM.render(
         </div>
       </div>
     </div>
-
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

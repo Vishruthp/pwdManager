@@ -1,7 +1,6 @@
-.App{
+.App {
   width: 50%;
 }
-
 .login100-form {
   width: 290px;
 }
@@ -25,7 +24,6 @@
   z-index: 1;
   margin-bottom: 10px;
 }
-
 .input100 {
   font-family: Poppins-Medium;
   font-size: 15px;
@@ -39,7 +37,6 @@
   border-radius: 25px;
   padding: 0 30px 0 68px;
 }
-
 .focus-input100 {
   display: block;
   position: absolute;
@@ -50,9 +47,8 @@
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87,184,70, 0.8);
+  color: rgba(87, 184, 70, 0.8);
 }
-
 .symbol-input100 {
   font-size: 15px;
 
@@ -77,15 +73,13 @@
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-.lgn_allpwd_btn
-{
+.lgn_allpwd_btn {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
 }
-
 .container-login100-form-btn {
   width: 100%;
   display: -webkit-box;
@@ -97,7 +91,6 @@
   justify-content: center;
   padding-top: 20px;
 }
-
 .login100-form-btn {
   font-family: Poppins-Bold;
   font-size: 15px;
@@ -116,11 +109,9 @@
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .login100-form-btn:hover {
   background: #333333;
 }
-
 .txt2 {
   font-family: Poppins-Regular;
   font-size: 13px;
@@ -130,13 +121,12 @@
   justify-content: center;
   align-items: center;
 }
-
 table {
   border-collapse: collapse;
   width: 100%;
 }
-
-td,th {
+td,
+th {
   border-bottom: 1px solid #ddd;
   padding: 8px;
 }
@@ -149,8 +139,7 @@ th {
   text-align: left;
   color: black;
 }
-.tablecontainer
-{
+.tablecontainer {
   display: flex;
   align-items: flex-start;
 }

@@ -1,15 +1,15 @@
-var async = require('async');  
-var couch = require('./couchdb');
-var databases = ['pwdmanager'];
+var async = require("async");
+var couch = require("./couchdb");
+var databases = ["pwdmanager"];
 module.exports = initCouch;
-function initCouch(cb) {  
+function initCouch(cb) {
   createDatabases(cb);
 }
-function createDatabases(cb) {  
+function createDatabases(cb) {
   async.each(databases, createDatabase, cb);
 }
-function createDatabase(db, cb) {  
-  couch.db.create(db, function(err) {
+function createDatabase(db, cb) {
+  couch.db.create(db, function (err) {
     if (err && err.statusCode == 412) {
       err = null;
     }
